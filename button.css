@@ -1,0 +1,69 @@
+.subscribe_btn {
+  background-color: rgba(200, 6, 6, 0.713);
+  color: white;
+  border: none;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  
+ }
+ .join_btn {
+   background-color: rgb(144, 155, 187);
+   border-color: rgb(110, 110, 238);
+   color: blue;
+   height: 35px;
+   width: 105px;
+   border-radius: 2px;
+   border-width: 1px;
+   font-weight: bold;
+   cursor: pointer;
+   margin-right: 8px;
+   box-shadow: 3px 3px 3px black;
+
+ }
+ .tweet_btn {
+ background-color: blue;
+ color: white;
+ border: none;
+ height: 35px;
+ width: 100px;
+ border-radius: 17px;
+ cursor: pointer;
+ font-weight: bold;
+ font-size: 15px;
+ margin-right: 8px;
+
+ }
+ .sign_btn {
+   border: none;
+   background-color: rgb(46, 164, 79);
+   height: 34px;
+   width: 75px;
+   border-radius: 3px;
+   color: white;
+   font-size: 13px;
+   font-weight: bold;
+   cursor: pointer;
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25 );
+ }
+ .subscribe_btn:hover
+ {
+   background-color: darkred;
+   font-size: 15px;
+   transition: background-color 1s, fontsize 1s;
+ }
+ .subscribe_btn:active{
+   background-color: blue;
+ }
+ a{
+   color: darkcyan;
+   font-size: 15px;
+   font-weight: bold;
+ }

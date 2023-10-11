@@ -1,0 +1,113 @@
+.header{
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(224, 220, 220);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: gray;
+  z-index: 5;
+
+}
+.left_section{
+  display: flex;
+  align-items: center;
+}
+.middle_section{
+  flex: 1;
+  margin-left: 60px;
+  margin-right: 30px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+.right_section{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+.hamberger{
+  height: 25px;
+  margin-left: 25px;
+  margin-right: 20px;
+}
+.youtube_logo{
+  height: 25px;
+}
+.search-bar{
+  flex: 1;
+  height: 34px;
+  padding-left: 15px;
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: none;
+  box-shadow: inset 2px 3px 2px rgba(32, 32, 32, 0.15);
+  background-color: rgb(242, 239, 239);
+  border-radius: 3px;
+  width: 0;
+}
+.search-bar::placeholder{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  
+}
+.search_btn{
+  height: 38px;
+  width: 50px;
+ border: none;
+  border-radius: 3px;
+  margin-left: 3px;
+  box-shadow: inset 2px 3px 2px rgba(32, 32, 32, 0.15);
+}
+.search_icon{
+  display: flex;
+  width: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.voice_search{
+  height: 38px;
+  width: 40px;
+  border: none;
+  border-radius: 30px;
+  margin-left: 20px;
+  box-shadow: inset 2px 3px 2px rgba(32, 32, 32, 0.15);
+}
+.upload_icon{
+  height: 25px;
+}
+.app_icon{
+  height: 25px;
+}
+.notific_icon{
+  height: 25px;
+}
+.notific_container{
+  position: relative;
+}
+.notific_count{
+  position: absolute;
+  top: -2px;
+  right: -3px;
+  background-color: rgba(255, 0, 0, 0.896);
+  color: rgb(255, 255, 255);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 11px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  border-radius: 10px;
+}
+.my_channel{
+  height: 40px;
+  border-radius: 40px;
+}
